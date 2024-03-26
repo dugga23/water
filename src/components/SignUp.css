@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 6px 20px rgb(10, 49, 1);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(58, 54, 2, 0.774));
+    filter: drop-shadow(0 6px 20px rgba(1, 17, 46, 0.897));
+    border-radius: 20px;
+    overflow: hidden;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    background: #000000;
+    padding-bottom: 30px;
+}
+
+.header{
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 6px 20px rgb(12, 58, 1);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(54, 51, 2, 0.774));
+    filter: drop-shadow(0 6px 20px rgba(1, 18, 49, 0.897));
+    border-radius: 20px;
+    background-color: rgb(4, 94, 22);
+    align-items: center;
+    margin: 10px;
+}
+
+.text{
+    color: rgb(252, 244, 244);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: #000000;
+    border-radius: 9px;
+}
+
+.inputs{
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 6px 20px rgb(8, 14, 34);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(160, 149, 3, 0.774));
+    filter: drop-shadow(0 6px 20px rgba(2, 44, 14, 0.897));
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 50px;
+    background: #000000;
+    border-radius: 6px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(255, 251, 251);
+    font-size: 20px;
+}
+
+/* .forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color:   rgb(17, 107, 107);
+    font-size: 18px;
+}  */
+
+/* .forgot-password span{
+    color: #e4ddee;
+    cursor: pointer;
+} */
+
+.submit-container{
+    flex-flow: column; 
+    box-shadow: 0 6px 20px rgb(8, 39, 1);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(41, 38, 1, 0.774));
+    filter: drop-shadow(0 6px 20px rgba(1, 17, 46, 0.897));
+    border-radius: 29px;
+    text-decoration: none;
+    height: 40px;
+    display: flex;
+    gap: 40px;
+    margin: 20px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color:  #f5efef;
+    background:  rgb(5, 73, 11);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+
+    background: rgb(6, 116, 21);
+    color: (#8a17b1);
+}

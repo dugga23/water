@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.signUp-button {
+  @apply text-[13px] md:text-sm text-black font-medium relative border border-blue-700 p-[9px_16px] md:justify-center md:items-center flex after:content-[""] after:absolute after:w-0 after:h-full after:left-0 after:top-0 hover:after:w-full after:bg-blue-500 after:duration-200 hover:text-[#ffffff] duration-200 hover:scale-[1.05] rounded-sm cursor-pointer;
+}
+.modal-enter {
+    transform: translateX(100%);
+  }
+  
+  .modal-enter-active {
+    transition: transform 0.5s ease;
+    transform: translateX(0);
+  }
+  
+  .modal-exit {
+    transform: translateX(0);
+  }
+  
+  .modal-exit-active {
+    transition: transform 0.5s ease;
+    transform: translateX(100%);
+  }
+  
+  body{
+    background-color: black;
+  }
