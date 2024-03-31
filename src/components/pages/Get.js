@@ -28,7 +28,7 @@ const handleemailText=(evt)=>{
         description:description
     };
     axios
-    .post('http://localhost:5000/Get',obj)
+    .post('https://water4all-backend-7qi4.onrender.com/Get',obj)
     .then((res)=>{
         alert('Thank You! For connecting with us');
     })
