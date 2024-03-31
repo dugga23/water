@@ -30,7 +30,7 @@ export default function Feedback() {
           feedback:feedback
       };
       axios
-      .post('http://localhost:5000/submit',obj)
+      .post('https://water4all-backend-7qi4.onrender.com/submit',obj)
       .then((res)=>{
           alert('Thank You! Form submitted Successfully');
       })
